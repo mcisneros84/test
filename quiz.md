@@ -75,4 +75,17 @@ You do not have shell or web interface access to their GitHub Enterprise instanc
 
 # Response 3
 
+Hello ‘Customer’,
 
+Thank you for contacting GitHub Enterprise. As the error specifies, this is a problem with the  SSL certificate, you will need to add the associated CA certificate according to your system.
+
+You can try by following these directions:
+
+In order to add additional CA certificates, first create a new subdirectory to store your CAs
+Then add your CA certificates to this directory. These files should have a .crt extension (e.g., my_ca.crt). Then append a line for each certificate you add to the configuration file /etc/ca-certificates.conf (e.g., “added/my_ca.crt“). 
+
+Please let me know if you have any questions, I will be happy to assist.
+
+Regards,
+
+Martha
